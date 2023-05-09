@@ -1,8 +1,16 @@
 *{
-    text-align: center;
+    text-align: left;
+    background-color: grey;
+    color: white;
 }
 #wyniki{
     font-size: 20px;
     font-family: verdana;
-        
+
+}
+.przyciski{
+    background-color: white;
+}
+.reset{
+    background-color: black;
 }
