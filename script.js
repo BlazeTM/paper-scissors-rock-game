@@ -62,6 +62,42 @@ function userPaper(){
     console.log(userWin,draw,computerWin);
     results();
 };
+function userLizard(){
+    userChoice= choices[3];
+    console.log(userChoice);
+    generateComputerChoice();
+    console.log(computerChoice);
+    if(userChoice == choices[3]){
+        if(checkLizard(computerChoice)){
+            userWin = userWin+1;
+        }else{
+            if(computerChoice == choices[3]){
+                draw = draw+1;
+            }else {
+                computerWin = computerWin+1;}
+        }
+    }
+    console.log(userWin,draw,computerWin);
+    results();
+};
+function userSpock(){
+    userChoice= choices[4];
+    console.log(userChoice);
+    generateComputerChoice();
+    console.log(computerChoice);
+    if(userChoice == choices[4]){
+        if(checkSpock(computerChoice)){
+            userWin = userWin+1;
+        }else{
+            if(computerChoice == choices[4]){
+                draw = draw+1;
+            }else {
+                computerWin = computerWin+1;}
+        }
+    }
+    console.log(userWin,draw,computerWin);
+    results();
+};
 
 
 function checkRock(choice){
