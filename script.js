@@ -166,7 +166,7 @@ function results(){
     document.getElementById("lose").innerHTML = computerWin;
     document.getElementById("userChoice").innerHTML = userChoice;
     document.getElementById("computerChoice").innerHTML = computerChoice;
-    document.getElementById("results").innerHTML = computerChoice;
+    document.getElementById("results").innerHTML = resultss;
 }
 
 function reset(){
