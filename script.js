@@ -148,6 +148,8 @@ function results(){
     document.getElementById("win").innerHTML = userWin;
     document.getElementById("draw").innerHTML = draw;
     document.getElementById("lose").innerHTML = computerWin;
+    document.getElementById("userChoice").innerHTML = userChoice;
+    document.getElementById("computerChoice").innerHTML = computerChoice;
 }
 
 function reset(){
